@@ -1,0 +1,4 @@
+services:
+  user.domain.abstract_user_repository:
+    class: ../../../context/infrastructure/sqlalchemy_user_repository/SqlAlchemyUserRepository
+    arguments: []
